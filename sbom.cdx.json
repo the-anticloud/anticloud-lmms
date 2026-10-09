@@ -1,0 +1,207 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:5b7a6a5b-e15b-5b00-b858-799cd195dc4d",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T09:06:22Z",
+    "component": {
+      "type": "application",
+      "name": "LMMS",
+      "version": "a2f57e70ce9c",
+      "bom-ref": "pkg:generic/anticloud/LMMS@a2f57e70ce9c",
+      "purl": "pkg:generic/anticloud/LMMS@a2f57e70ce9c",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "a2f57e70ce9c3468b4b6d21955bbe65a0989048a"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/LMMS/lmms"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "Qt",
+      "version": "unspecified",
+      "purl": "pkg:generic/Qt",
+      "bom-ref": "native/Qt@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Perl",
+      "version": "unspecified",
+      "purl": "pkg:generic/Perl",
+      "bom-ref": "native/Perl@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Lilv",
+      "version": "unspecified",
+      "purl": "pkg:generic/Lilv",
+      "bom-ref": "native/Lilv@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "SuilModules",
+      "version": "unspecified",
+      "purl": "pkg:generic/SuilModules",
+      "bom-ref": "native/SuilModules@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "FluidSynth",
+      "version": "unspecified",
+      "purl": "pkg:generic/FluidSynth",
+      "bom-ref": "native/FluidSynth@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Wine",
+      "version": "unspecified",
+      "purl": "pkg:generic/Wine",
+      "bom-ref": "native/Wine@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Git",
+      "version": "unspecified",
+      "purl": "pkg:generic/Git",
+      "bom-ref": "native/Git@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "fftw3",
+      "version": "unspecified",
+      "purl": "pkg:generic/fftw3",
+      "bom-ref": "vcpkg/fftw3@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "fltk",
+      "version": "unspecified",
+      "purl": "pkg:generic/fltk",
+      "bom-ref": "vcpkg/fltk@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "fluidsynth",
+      "version": "unspecified",
+      "purl": "pkg:generic/fluidsynth",
+      "bom-ref": "vcpkg/fluidsynth@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "libflac",
+      "version": "unspecified",
+      "purl": "pkg:generic/libflac",
+      "bom-ref": "vcpkg/libflac@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "libogg",
+      "version": "unspecified",
+      "purl": "pkg:generic/libogg",
+      "bom-ref": "vcpkg/libogg@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "libsamplerate",
+      "version": "unspecified",
+      "purl": "pkg:generic/libsamplerate",
+      "bom-ref": "vcpkg/libsamplerate@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "libsndfile",
+      "version": "unspecified",
+      "purl": "pkg:generic/libsndfile",
+      "bom-ref": "vcpkg/libsndfile@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "libstk",
+      "version": "unspecified",
+      "purl": "pkg:generic/libstk",
+      "bom-ref": "vcpkg/libstk@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "libvorbis",
+      "version": "unspecified",
+      "purl": "pkg:generic/libvorbis",
+      "bom-ref": "vcpkg/libvorbis@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "lilv",
+      "version": "unspecified",
+      "purl": "pkg:generic/lilv",
+      "bom-ref": "vcpkg/lilv@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "mp3lame",
+      "version": "unspecified",
+      "purl": "pkg:generic/mp3lame",
+      "bom-ref": "vcpkg/mp3lame@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "portaudio",
+      "version": "unspecified",
+      "purl": "pkg:generic/portaudio",
+      "bom-ref": "vcpkg/portaudio@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "sdl2",
+      "version": "unspecified",
+      "purl": "pkg:generic/sdl2",
+      "bom-ref": "vcpkg/sdl2@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "zlib",
+      "version": "unspecified",
+      "purl": "pkg:generic/zlib",
+      "bom-ref": "vcpkg/zlib@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Threads",
+      "version": "unspecified",
+      "purl": "pkg:generic/Threads",
+      "bom-ref": "native/Threads@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ZLIB",
+      "version": "unspecified",
+      "purl": "pkg:generic/ZLIB",
+      "bom-ref": "native/ZLIB@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Doxygen",
+      "version": "unspecified",
+      "purl": "pkg:generic/Doxygen",
+      "bom-ref": "native/Doxygen@unspecified"
+    }
+  ]
+}
