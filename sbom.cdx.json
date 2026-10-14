@@ -1,0 +1,459 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:2c4023e1-109d-591e-8d94-b4399b350728",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-12T05:45:19Z",
+    "component": {
+      "type": "application",
+      "name": "LMMS",
+      "version": "de9df332ca75",
+      "bom-ref": "pkg:generic/anticloud/LMMS@de9df332ca75",
+      "purl": "pkg:generic/anticloud/LMMS@de9df332ca75",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "de9df332ca7573b90a9aaca10c0729a3091dda0a"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": ""
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "standardized-audio-context",
+      "version": "^25.3.70",
+      "purl": "pkg:npm/standardized-audio-context@^25.3.70",
+      "bom-ref": "npm/standardized-audio-context@^25.3.70"
+    },
+    {
+      "type": "library",
+      "name": "tslib",
+      "version": "^2.3.1",
+      "purl": "pkg:npm/tslib@^2.3.1",
+      "bom-ref": "npm/tslib@^2.3.1"
+    },
+    {
+      "type": "library",
+      "name": "@rollup/plugin-commonjs",
+      "version": "^26.0.3",
+      "purl": "pkg:npm/@rollup/plugin-commonjs@^26.0.3",
+      "bom-ref": "npm/@rollup/plugin-commonjs@^26.0.3"
+    },
+    {
+      "type": "library",
+      "name": "@stylistic/eslint-plugin-js",
+      "version": "^4.2.0",
+      "purl": "pkg:npm/@stylistic/eslint-plugin-js@^4.2.0",
+      "bom-ref": "npm/@stylistic/eslint-plugin-js@^4.2.0"
+    },
+    {
+      "type": "library",
+      "name": "@stylistic/eslint-plugin-ts",
+      "version": "^4.2.0",
+      "purl": "pkg:npm/@stylistic/eslint-plugin-ts@^4.2.0",
+      "bom-ref": "npm/@stylistic/eslint-plugin-ts@^4.2.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/chai",
+      "version": "^4.3.0",
+      "purl": "pkg:npm/@types/chai@^4.3.0",
+      "bom-ref": "npm/@types/chai@^4.3.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/mocha",
+      "version": "^5.2.6",
+      "purl": "pkg:npm/@types/mocha@^5.2.6",
+      "bom-ref": "npm/@types/mocha@^5.2.6"
+    },
+    {
+      "type": "library",
+      "name": "@types/sinon",
+      "version": "^21.0.0",
+      "purl": "pkg:npm/@types/sinon@^21.0.0",
+      "bom-ref": "npm/@types/sinon@^21.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/sinon-chai",
+      "version": "^4.0.0",
+      "purl": "pkg:npm/@types/sinon-chai@^4.0.0",
+      "bom-ref": "npm/@types/sinon-chai@^4.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/ua-parser-js",
+      "version": "^0.7.36",
+      "purl": "pkg:npm/@types/ua-parser-js@^0.7.36",
+      "bom-ref": "npm/@types/ua-parser-js@^0.7.36"
+    },
+    {
+      "type": "library",
+      "name": "@web/dev-server-esbuild",
+      "version": "^2.0.0",
+      "purl": "pkg:npm/@web/dev-server-esbuild@^2.0.0",
+      "bom-ref": "npm/@web/dev-server-esbuild@^2.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@web/dev-server-rollup",
+      "version": "^1.0.0",
+      "purl": "pkg:npm/@web/dev-server-rollup@^1.0.0",
+      "bom-ref": "npm/@web/dev-server-rollup@^1.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@web/test-runner",
+      "version": "^1.0.0",
+      "purl": "pkg:npm/@web/test-runner@^1.0.0",
+      "bom-ref": "npm/@web/test-runner@^1.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@web/test-runner-chrome",
+      "version": "^1.0.1",
+      "purl": "pkg:npm/@web/test-runner-chrome@^1.0.1",
+      "bom-ref": "npm/@web/test-runner-chrome@^1.0.1"
+    },
+    {
+      "type": "library",
+      "name": "array2d",
+      "version": "^0.0.5",
+      "purl": "pkg:npm/array2d@^0.0.5",
+      "bom-ref": "npm/array2d@^0.0.5"
+    },
+    {
+      "type": "library",
+      "name": "audiobuffer-to-wav",
+      "version": "^1.0.0",
+      "purl": "pkg:npm/audiobuffer-to-wav@^1.0.0",
+      "bom-ref": "npm/audiobuffer-to-wav@^1.0.0"
+    },
+    {
+      "type": "library",
+      "name": "chai",
+      "version": "^5.1.0",
+      "purl": "pkg:npm/chai@^5.1.0",
+      "bom-ref": "npm/chai@^5.1.0"
+    },
+    {
+      "type": "library",
+      "name": "codecov",
+      "version": "^3.8.3",
+      "purl": "pkg:npm/codecov@^3.8.3",
+      "bom-ref": "npm/codecov@^3.8.3"
+    },
+    {
+      "type": "library",
+      "name": "concurrently",
+      "version": "^8.2.2",
+      "purl": "pkg:npm/concurrently@^8.2.2",
+      "bom-ref": "npm/concurrently@^8.2.2"
+    },
+    {
+      "type": "library",
+      "name": "conventional-commits-parser",
+      "version": "^7.1.0",
+      "purl": "pkg:npm/conventional-commits-parser@^7.1.0",
+      "bom-ref": "npm/conventional-commits-parser@^7.1.0"
+    },
+    {
+      "type": "library",
+      "name": "cspell",
+      "version": "^9.0.2",
+      "purl": "pkg:npm/cspell@^9.0.2",
+      "bom-ref": "npm/cspell@^9.0.2"
+    },
+    {
+      "type": "library",
+      "name": "eslint",
+      "version": "^9.25.1",
+      "purl": "pkg:npm/eslint@^9.25.1",
+      "bom-ref": "npm/eslint@^9.25.1"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-html",
+      "version": "^8.1.2",
+      "purl": "pkg:npm/eslint-plugin-html@^8.1.2",
+      "bom-ref": "npm/eslint-plugin-html@^8.1.2"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-jsdoc",
+      "version": "^50.6.11",
+      "purl": "pkg:npm/eslint-plugin-jsdoc@^50.6.11",
+      "bom-ref": "npm/eslint-plugin-jsdoc@^50.6.11"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-no-only-tests",
+      "version": "^3.4.0",
+      "purl": "pkg:npm/eslint-plugin-no-only-tests@^3.4.0",
+      "bom-ref": "npm/eslint-plugin-no-only-tests@^3.4.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-simple-import-sort",
+      "version": "^12.1.1",
+      "purl": "pkg:npm/eslint-plugin-simple-import-sort@^12.1.1",
+      "bom-ref": "npm/eslint-plugin-simple-import-sort@^12.1.1"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-unused-imports",
+      "version": "^4.1.4",
+      "purl": "pkg:npm/eslint-plugin-unused-imports@^4.1.4",
+      "bom-ref": "npm/eslint-plugin-unused-imports@^4.1.4"
+    },
+    {
+      "type": "library",
+      "name": "fft-windowing",
+      "version": "^0.1.4",
+      "purl": "pkg:npm/fft-windowing@^0.1.4",
+      "bom-ref": "npm/fft-windowing@^0.1.4"
+    },
+    {
+      "type": "library",
+      "name": "fourier-transform",
+      "version": "^1.1.2",
+      "purl": "pkg:npm/fourier-transform@^1.1.2",
+      "bom-ref": "npm/fourier-transform@^1.1.2"
+    },
+    {
+      "type": "library",
+      "name": "fs-fixture",
+      "version": "^2.7.1",
+      "purl": "pkg:npm/fs-fixture@^2.7.1",
+      "bom-ref": "npm/fs-fixture@^2.7.1"
+    },
+    {
+      "type": "library",
+      "name": "html-webpack-plugin",
+      "version": "^5.6.3",
+      "purl": "pkg:npm/html-webpack-plugin@^5.6.3",
+      "bom-ref": "npm/html-webpack-plugin@^5.6.3"
+    },
+    {
+      "type": "library",
+      "name": "http-server",
+      "version": "^13.0.2",
+      "purl": "pkg:npm/http-server@^13.0.2",
+      "bom-ref": "npm/http-server@^13.0.2"
+    },
+    {
+      "type": "library",
+      "name": "jsdom",
+      "version": "^26.1.0",
+      "purl": "pkg:npm/jsdom@^26.1.0",
+      "bom-ref": "npm/jsdom@^26.1.0"
+    },
+    {
+      "type": "library",
+      "name": "marked",
+      "version": "^15.0.12",
+      "purl": "pkg:npm/marked@^15.0.12",
+      "bom-ref": "npm/marked@^15.0.12"
+    },
+    {
+      "type": "library",
+      "name": "mocha",
+      "version": "^12.0.1",
+      "purl": "pkg:npm/mocha@^12.0.1",
+      "bom-ref": "npm/mocha@^12.0.1"
+    },
+    {
+      "type": "library",
+      "name": "plotly.js-dist",
+      "version": "^2.32.0",
+      "purl": "pkg:npm/plotly.js-dist@^2.32.0",
+      "bom-ref": "npm/plotly.js-dist@^2.32.0"
+    },
+    {
+      "type": "library",
+      "name": "prettier",
+      "version": "^3.2.5",
+      "purl": "pkg:npm/prettier@^3.2.5",
+      "bom-ref": "npm/prettier@^3.2.5"
+    },
+    {
+      "type": "library",
+      "name": "puppeteer",
+      "version": "^25.12.0",
+      "purl": "pkg:npm/puppeteer@^25.12.0",
+      "bom-ref": "npm/puppeteer@^25.12.0"
+    },
+    {
+      "type": "library",
+      "name": "semver",
+      "version": "^5.7.1",
+      "purl": "pkg:npm/semver@^5.7.1",
+      "bom-ref": "npm/semver@^5.7.1"
+    },
+    {
+      "type": "library",
+      "name": "simple-git",
+      "version": "^3.36.0",
+      "purl": "pkg:npm/simple-git@^3.36.0",
+      "bom-ref": "npm/simple-git@^3.36.0"
+    },
+    {
+      "type": "library",
+      "name": "sinon",
+      "version": "^21.0.0",
+      "purl": "pkg:npm/sinon@^21.0.0",
+      "bom-ref": "npm/sinon@^21.0.0"
+    },
+    {
+      "type": "library",
+      "name": "sinon-chai",
+      "version": "^4.0.1",
+      "purl": "pkg:npm/sinon-chai@^4.0.1",
+      "bom-ref": "npm/sinon-chai@^4.0.1"
+    },
+    {
+      "type": "library",
+      "name": "teoria",
+      "version": "^2.5.0",
+      "purl": "pkg:npm/teoria@^2.5.0",
+      "bom-ref": "npm/teoria@^2.5.0"
+    },
+    {
+      "type": "library",
+      "name": "tinyglobby",
+      "version": "^0.2.14",
+      "purl": "pkg:npm/tinyglobby@^0.2.14",
+      "bom-ref": "npm/tinyglobby@^0.2.14"
+    },
+    {
+      "type": "library",
+      "name": "tonal",
+      "version": "^6.0.1",
+      "purl": "pkg:npm/tonal@^6.0.1",
+      "bom-ref": "npm/tonal@^6.0.1"
+    },
+    {
+      "type": "library",
+      "name": "ts-loader",
+      "version": "^9.5.1",
+      "purl": "pkg:npm/ts-loader@^9.5.1",
+      "bom-ref": "npm/ts-loader@^9.5.1"
+    },
+    {
+      "type": "library",
+      "name": "typedoc",
+      "version": "^0.28.12",
+      "purl": "pkg:npm/typedoc@^0.28.12",
+      "bom-ref": "npm/typedoc@^0.28.12"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "^5.4.5",
+      "purl": "pkg:npm/typescript@^5.4.5",
+      "bom-ref": "npm/typescript@^5.4.5"
+    },
+    {
+      "type": "library",
+      "name": "typescript-eslint",
+      "version": "^8.31.0",
+      "purl": "pkg:npm/typescript-eslint@^8.31.0",
+      "bom-ref": "npm/typescript-eslint@^8.31.0"
+    },
+    {
+      "type": "library",
+      "name": "ua-parser-js",
+      "version": "^0.7.31",
+      "purl": "pkg:npm/ua-parser-js@^0.7.31",
+      "bom-ref": "npm/ua-parser-js@^0.7.31"
+    },
+    {
+      "type": "library",
+      "name": "webpack",
+      "version": "^5.91.0",
+      "purl": "pkg:npm/webpack@^5.91.0",
+      "bom-ref": "npm/webpack@^5.91.0"
+    },
+    {
+      "type": "library",
+      "name": "webpack-cli",
+      "version": "^5.1.4",
+      "purl": "pkg:npm/webpack-cli@^5.1.4",
+      "bom-ref": "npm/webpack-cli@^5.1.4"
+    },
+    {
+      "type": "library",
+      "name": "webpack-dev-server",
+      "version": "^5.2.0",
+      "purl": "pkg:npm/webpack-dev-server@^5.2.0",
+      "bom-ref": "npm/webpack-dev-server@^5.2.0"
+    },
+    {
+      "type": "library",
+      "name": "yargs",
+      "version": "^17.3.0",
+      "purl": "pkg:npm/yargs@^17.3.0",
+      "bom-ref": "npm/yargs@^17.3.0"
+    },
+    {
+      "type": "library",
+      "name": "zx",
+      "version": "^8.0.2",
+      "purl": "pkg:npm/zx@^8.0.2",
+      "bom-ref": "npm/zx@^8.0.2"
+    },
+    {
+      "type": "library",
+      "name": "tone",
+      "version": "file:../../..",
+      "purl": "pkg:npm/tone@file:../../..",
+      "bom-ref": "npm/tone@file:../../.."
+    },
+    {
+      "type": "library",
+      "name": "vite",
+      "version": "^5.2.11",
+      "purl": "pkg:npm/vite@^5.2.11",
+      "bom-ref": "npm/vite@^5.2.11"
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "^20.12.8",
+      "purl": "pkg:npm/@types/node@^20.12.8",
+      "bom-ref": "npm/@types/node@^20.12.8"
+    },
+    {
+      "type": "library",
+      "name": "@rollup/plugin-node-resolve",
+      "version": "^15.2.3",
+      "purl": "pkg:npm/@rollup/plugin-node-resolve@^15.2.3",
+      "bom-ref": "npm/@rollup/plugin-node-resolve@^15.2.3"
+    },
+    {
+      "type": "library",
+      "name": "rollup",
+      "version": "^4.18.0",
+      "purl": "pkg:npm/rollup@^4.18.0",
+      "bom-ref": "npm/rollup@^4.18.0"
+    }
+  ]
+}
