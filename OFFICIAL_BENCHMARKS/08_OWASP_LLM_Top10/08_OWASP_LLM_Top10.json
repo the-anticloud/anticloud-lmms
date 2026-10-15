@@ -1,0 +1,16 @@
+{
+ "framework": "08_OWASP_LLM_Top10",
+ "title": "OWASP Top 10 for LLM Applications 2025",
+ "project": "LMMS",
+ "basis": [
+  {
+   "check": "06_owasp_llm_top10",
+   "status": "PASS",
+   "observed": "{\"authority\": \"OWASP Foundation\", \"control_ids\": [\"LLM01\", \""
+  }
+ ],
+ "verdict": "CONTROLS EVIDENCED \u2014 all basis checks PASS",
+ "pax_provenance": "Run ID loiskleinner/pax-benchmark-runner v3, 2026-10-02, Kaggle T4 x2 (2x 16GB VRAM), Ubuntu 22.04, Python 3.12. These are PAX L5 Narrow L2 General 27B model-level results \u2014 shared model component, not this project's verdict.",
+ "bench_sha3": "91fda61a485a96fffff37f22945126efc1627eba3c07fd34ae99bc2faf345d05",
+ "register_sha3": "417bf7c849ee1d2811fcce99780c0d6aa2d1c5c42a1d4c4640def2b4f495b4f7"
+}

@@ -1,0 +1,1151 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "LMMS",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\AUDIO_CONSUMER\\LMMS\\UPSTREAM_CLONE",
+    "git": {
+      "head": "a2f57e70ce9c3468b4b6d21955bbe65a0989048a",
+      "url": "https://github.com/LMMS/lmms",
+      "branch": "master",
+      "committed_at": "2026-09-28T00:00:26+03:00"
+    }
+  },
+  "metrics": {
+    "files_total": 4411,
+    "source_files_scanned": 947,
+    "lines_of_code": 233993,
+    "languages": {
+      ".png": 1041,
+      ".xiz": 954,
+      ".ds": 764,
+      ".h": 510,
+      ".cpp": 410,
+      ".ogg": 181,
+      ".xpf": 175,
+      ".txt": 95,
+      ".svg": 54,
+      ".ts": 39,
+      ".mmpz": 38,
+      ".flac": 33,
+      ".wav": 26,
+      "(none)": 25,
+      ".cc": 22
+    }
+  },
+  "licence": {
+    "spdx": "GPL-2.0",
+    "class": "B",
+    "source_file": "LICENSE.txt",
+    "redistribution_allowed": false
+  },
+  "dependencies": {
+    "count": 25,
+    "unique": 24,
+    "by_ecosystem": {
+      "native": 11,
+      "vcpkg": 14
+    },
+    "list": [
+      {
+        "ecosystem": "native",
+        "name": "Qt",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(Qt"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Qt",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(Qt"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Perl",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(Perl"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Lilv",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(Lilv"
+      },
+      {
+        "ecosystem": "native",
+        "name": "SuilModules",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(SuilModules"
+      },
+      {
+        "ecosystem": "native",
+        "name": "FluidSynth",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(FluidSynth"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Wine",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(Wine"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Git",
+        "version": "",
+        "source_file": "CMakeLists.txt",
+        "raw": "find_package(Git"
+      },
+      {
+        "ecosystem": "vcpkg",
+        "name": "fftw3",
+        "version": "",
+        "source_file": "vcpkg.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "vcpkg",
+        "name": "fltk",
+        "version": "",
+        "source_file": "vcpkg.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "vcpkg",
+        "name": "fluidsynth",
+        "version": "",
+        "source_file": "vcpkg.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "vcpkg",
+        "name": "libflac",
+        "version": "",
+        "source_file": "vcpkg.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "vcpkg",
+        "name": "libogg",
+        "version": "",
+        "source_file": "vcpkg.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "vcpkg",
+        "name": "libsamplerate",
+        "version": "",
+        "source_file": "vcpkg.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "vcpkg",
+        "name": "libsndfile",
+        "version": "",
+        "source_file": "vcpkg.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "vcpkg",
+        "name": "libstk",
+        "version": "",
+        "source_file": "vcpkg.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "vcpkg",
+        "name": "libvorbis",
+        "version": "",
+        "source_file": "vcpkg.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "vcpkg",
+        "name": "lilv",
+        "version": "",
+        "source_file": "vcpkg.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "vcpkg",
+        "name": "mp3lame",
+        "version": "",
+        "source_file": "vcpkg.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "vcpkg",
+        "name": "portaudio",
+        "version": "",
+        "source_file": "vcpkg.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "vcpkg",
+        "name": "sdl2",
+        "version": "",
+        "source_file": "vcpkg.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "vcpkg",
+        "name": "zlib",
+        "version": "",
+        "source_file": "vcpkg.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "native",
+        "name": "Threads",
+        "version": "",
+        "source_file": "plugins/ZynAddSubFx/CMakeLists.txt",
+        "raw": "find_package(Threads"
+      },
+      {
+        "ecosystem": "native",
+        "name": "ZLIB",
+        "version": "",
+        "source_file": "plugins/ZynAddSubFx/CMakeLists.txt",
+        "raw": "find_package(ZLIB"
+      },
+      {
+        "ecosystem": "native",
+        "name": "Doxygen",
+        "version": "",
+        "source_file": "doc/CMakeLists.txt",
+        "raw": "find_package(Doxygen"
+      }
+    ]
+  },
+  "owasp_top10": {
+    "total_findings": 249,
+    "files_with_findings": 224,
+    "severity": {
+      "high": 27,
+      "medium": 2,
+      "low": 220
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 2,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "src/common/SharedMemory.cpp",
+            "line": 269,
+            "cwe": "CWE-338",
+            "snippet": "auto gen = std::mt19937{rd()}; // mersenne twister, seeded"
+          },
+          {
+            "severity": "medium",
+            "file": "plugins/Xpressive/ExprSynth.cpp",
+            "line": 361,
+            "cwe": "CWE-338",
+            "snippet": "std::mt19937 generator (17);  // mt19937 is a standard mersenne_twister_engine"
+          }
+        ]
+      },
+      "A03-Injection": {
+        "count": 27,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "src/gui/ControllerView.cpp",
+            "line": 167,
+            "cwe": "CWE-95",
+            "snippet": "contextMenu->exec( QCursor::pos() );"
+          },
+          {
+            "severity": "high",
+            "file": "src/gui/EffectView.cpp",
+            "line": 176,
+            "cwe": "CWE-95",
+            "snippet": "contextMenu->exec( QCursor::pos() );"
+          },
+          {
+            "severity": "high",
+            "file": "src/gui/FileBrowser.cpp",
+            "line": 692,
+            "cwe": "CWE-95",
+            "snippet": "if (!contextMenu.isEmpty()) { contextMenu.exec(e->globalPos()); }"
+          },
+          {
+            "severity": "high",
+            "file": "src/gui/LfoControllerDialog.cpp",
+            "line": 241,
+            "cwe": "CWE-95",
+            "snippet": "contextMenu->exec( QCursor::pos() );"
+          },
+          {
+            "severity": "high",
+            "file": "src/gui/MixerChannelView.cpp",
+            "line": 195,
+            "cwe": "CWE-95",
+            "snippet": "contextMenu->exec(QCursor::pos());"
+          },
+          {
+            "severity": "high",
+            "file": "src/gui/PluginBrowser.cpp",
+            "line": 304,
+            "cwe": "CWE-95",
+            "snippet": "contextMenu.exec(e->globalPos());"
+          },
+          {
+            "severity": "high",
+            "file": "src/gui/StringPairDrag.cpp",
+            "line": 64,
+            "cwe": "CWE-95",
+            "snippet": "exec( Qt::CopyAction, Qt::CopyAction );"
+          },
+          {
+            "severity": "high",
+            "file": "src/gui/widgets/AutomatableButton.cpp",
+            "line": 98,
+            "cwe": "CWE-95",
+            "snippet": "contextMenu.exec( QCursor::pos() );"
+          },
+          {
+            "severity": "high",
+            "file": "src/gui/widgets/AutomatableSlider.cpp",
+            "line": 62,
+            "cwe": "CWE-95",
+            "snippet": "contextMenu.exec( QCursor::pos() );"
+          },
+          {
+            "severity": "high",
+            "file": "src/gui/widgets/ComboBox.cpp",
+            "line": 90,
+            "cwe": "CWE-95",
+            "snippet": "contextMenu.exec( QCursor::pos() );"
+          },
+          {
+            "severity": "high",
+            "file": "src/gui/widgets/Fader.cpp",
+            "line": 167,
+            "cwe": "CWE-95",
+            "snippet": "contextMenu.exec(QCursor::pos());"
+          },
+          {
+            "severity": "high",
+            "file": "src/gui/widgets/FloatModelEditorBase.cpp",
+            "line": 160,
+            "cwe": "CWE-95",
+            "snippet": "contextMenu.exec(QCursor::pos());"
+          },
+          {
+            "severity": "high",
+            "file": "src/gui/widgets/LcdFloatSpinBox.cpp",
+            "line": 133,
+            "cwe": "CWE-95",
+            "snippet": "contextMenu.exec(QCursor::pos());"
+          },
+          {
+            "severity": "high",
+            "file": "src/gui/widgets/LcdSpinBox.cpp",
+            "line": 75,
+            "cwe": "CWE-95",
+            "snippet": "contextMenu.exec(QCursor::pos());"
+          },
+          {
+            "severity": "high",
+            "file": "src/gui/widgets/MixerChannelLcdSpinBox.cpp",
+            "line": 79,
+            "cwe": "CWE-95",
+            "snippet": "contextMenu->exec(QCursor::pos());"
+          },
+          {
+            "severity": "high",
+            "file": "src/gui/widgets/TempoSyncBarModelEditor.cpp",
+            "line": 156,
+            "cwe": "CWE-95",
+            "snippet": "contextMenu.exec(QCursor::pos());"
+          },
+          {
+            "severity": "high",
+            "file": "src/gui/widgets/TempoSyncKnob.cpp",
+            "line": 174,
+            "cwe": "CWE-95",
+            "snippet": "contextMenu.exec( QCursor::pos() );"
+          },
+          {
+            "severity": "high",
+            "file": "src/gui/tracks/TrackContentWidget.cpp",
+            "line": 608,
+            "cwe": "CWE-95",
+            "snippet": "contextMenu.exec( QCursor::pos() );"
+          },
+          {
+            "severity": "high",
+            "file": "src/gui/instrument/EnvelopeGraph.cpp",
+            "line": 101,
+            "cwe": "CWE-95",
+            "snippet": "menu.exec(event->globalPos());"
+          },
+          {
+            "severity": "high",
+            "file": "src/gui/instrument/PianoView.cpp",
+            "line": 363,
+            "cwe": "CWE-95",
+            "snippet": "contextMenu.exec(QCursor::pos());"
+          },
+          {
+            "severity": "high",
+            "file": "src/gui/editors/TimeLineWidget.cpp",
+            "line": 448,
+            "cwe": "CWE-95",
+            "snippet": "menu.exec(event->globalPos());"
+          },
+          {
+            "severity": "high",
+            "file": "src/gui/clips/ClipView.cpp",
+            "line": 946,
+            "cwe": "CWE-95",
+            "snippet": "contextMenu.exec( QCursor::pos() );"
+          },
+          {
+            "severity": "high",
+            "file": "src/core/DrumSynth.cpp",
+            "line": 326,
+            "cwe": "CWE-120",
+            "snippet": "std::strcpy(sec, \"General\");"
+          },
+          {
+            "severity": "high",
+            "file": "plugins/VstBase/RemoteVstPlugin.cpp",
+            "line": 2124,
+            "cwe": "CWE-120",
+            "snippet": "std::strcpy(p, \"Tobias Doerffel\");"
+          },
+          {
+            "severity": "high",
+            "file": "plugins/Vibed/NineButtonSelector.cpp",
+            "line": 89,
+            "cwe": "CWE-95",
+            "snippet": "contextMenu.exec(QCursor::pos());"
+          }
+        ]
+      },
+      "A04-InsecureDesign": {
+        "count": 131,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "tests/src/tracks/AutomationTrackTest.cpp",
+            "line": 113,
+            "cwe": "CWE-",
+            "snippet": "//XXX: Why is this even necessary?"
+          },
+          {
+            "severity": "low",
+            "file": "src/tracks/InstrumentTrack.cpp",
+            "line": 560,
+            "cwe": "CWE-",
+            "snippet": "// TODO: Find out if we can skip processing at a higher level if the buffer is nullptr."
+          },
+          {
+            "severity": "low",
+            "file": "src/tracks/MidiClip.cpp",
+            "line": 519,
+            "cwe": "CWE-",
+            "snippet": "// TODO: Handle with an upgrade method"
+          },
+          {
+            "severity": "low",
+            "file": "src/gui/AutomatableModelView.cpp",
+            "line": 202,
+            "cwe": "CWE-",
+            "snippet": "// TODO[pg]: Display a dialog with list of controllers currently in the song"
+          },
+          {
+            "severity": "low",
+            "file": "src/gui/ControllerRackView.cpp",
+            "line": 223,
+            "cwe": "CWE-",
+            "snippet": "// TODO: Eventually let the user pick from available controller types"
+          },
+          {
+            "severity": "low",
+            "file": "src/gui/EffectView.cpp",
+            "line": 126,
+            "cwe": "CWE-",
+            "snippet": "effect()->controls()->setViewVisible(true); // TODO is this even needed?"
+          },
+          {
+            "severity": "low",
+            "file": "src/gui/FileBrowser.cpp",
+            "line": 427,
+            "cwe": "CWE-",
+            "snippet": "// TODO: don't insert instead of removing, order changed"
+          },
+          {
+            "severity": "low",
+            "file": "src/gui/LmmsStyle.cpp",
+            "line": 56,
+            "cwe": "CWE-",
+            "snippet": "c.setHsvF( hue, 0.42 * saturation, 0.98 * value ); // TODO: MIDI clip: 1.08"
+          },
+          {
+            "severity": "low",
+            "file": "src/gui/Lv2ViewBase.cpp",
+            "line": 153,
+            "cwe": "CWE-",
+            "snippet": "if (/* DISABLES CODE */ (false)) // TODO: check if the plugin has the UI extension"
+          },
+          {
+            "severity": "low",
+            "file": "src/gui/MainWindow.cpp",
+            "line": 252,
+            "cwe": "CWE-",
+            "snippet": "// TODO: Close tools"
+          },
+          {
+            "severity": "low",
+            "file": "src/gui/MicrotunerConfig.cpp",
+            "line": 508,
+            "cwe": "CWE-",
+            "snippet": "case -2:\tm_baseFreqModel.setValue(line.toDouble()); break;\t// sixth non-comment line = base freq"
+          },
+          {
+            "severity": "low",
+            "file": "src/gui/MidiCCRackView.cpp",
+            "line": 96,
+            "cwe": "CWE-",
+            "snippet": "// TODO It seems that this is not really used/needed?"
+          },
+          {
+            "severity": "low",
+            "file": "src/gui/widgets/AutomatableButton.cpp",
+            "line": 138,
+            "cwe": "CWE-",
+            "snippet": "// TODO: ^^ Maybe use a predefined icon instead of the button they happened to select"
+          },
+          {
+            "severity": "low",
+            "file": "src/gui/widgets/Graph.cpp",
+            "line": 43,
+            "cwe": "CWE-",
+            "snippet": "/* TODO: size, background? */"
+          },
+          {
+            "severity": "low",
+            "file": "src/gui/widgets/LcdWidget.cpp",
+            "line": 284,
+            "cwe": "CWE-",
+            "snippet": "//m_lcdPixmap = embed::getIconPixmap(\"lcd_19green\"); // TODO!!"
+          },
+          {
+            "severity": "low",
+            "file": "src/gui/widgets/PeakIndicator.cpp",
+            "line": 71,
+            "cwe": "CWE-",
+            "snippet": "// TODO Make the threshold configurable in the settings?"
+          },
+          {
+            "severity": "low",
+            "file": "src/gui/tracks/InstrumentTrackView.cpp",
+            "line": 372,
+            "cwe": "CWE-",
+            "snippet": "//FIXME: This is identical to SampleTrackView::createMixerMenu"
+          },
+          {
+            "severity": "low",
+            "file": "src/gui/tracks/SampleTrackView.cpp",
+            "line": 131,
+            "cwe": "CWE-",
+            "snippet": "//FIXME: This is identical to InstrumentTrackView::createMixerMenu"
+          },
+          {
+            "severity": "low",
+            "file": "src/gui/tracks/TrackContentWidget.cpp",
+            "line": 426,
+            "cwe": "CWE-",
+            "snippet": "// TODO -- Need to draw the hovericon either way, or ghost the Clips"
+          },
+          {
+            "severity": "low",
+            "file": "src/gui/modals/ControllerConnectionDialog.cpp",
+            "line": 239,
+            "cwe": "CWE-",
+            "snippet": "// TODO, handle by making this a model for the Dialog \"view\""
+          },
+          {
+            "severity": "low",
+            "file": "src/gui/modals/EffectSelectDialog.cpp",
+            "line": 281,
+            "cwe": "CWE-",
+            "snippet": "// HACK: Markup inside translation strings due to RTL not being handled correctly."
+          },
+          {
+            "severity": "low",
+            "file": "src/gui/modals/ExportProjectDialog.cpp",
+            "line": 252,
+            "cwe": "CWE-",
+            "snippet": "const auto compressionLevel = m_compressionLevelComboBox->currentData().toDouble();"
+          },
+          {
+            "severity": "low",
+            "file": "src/gui/instrument/InstrumentSoundShapingView.cpp",
+            "line": 86,
+            "cwe": "CWE-",
+            "snippet": "// TODO Could also be rendered in system font size..."
+          },
+          {
+            "severity": "low",
+            "file": "src/gui/instrument/InstrumentTrackWindow.cpp",
+            "line": 732,
+            "cwe": "CWE-",
+            "snippet": "// TODO Move to helper? Does not seem to be provided by Qt."
+          },
+          {
+            "severity": "low",
+            "file": "src/gui/instrument/PianoView.cpp",
+            "line": 35,
+            "cwe": "CWE-",
+            "snippet": "* \\todo fill this out"
+          }
+        ]
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 0,
+        "findings": []
+      },
+      "A06-VulnerableComponents": {
+        "count": 0,
+        "findings": []
+      },
+      "A07-AuthFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 89,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "src/gui/MainWindow.cpp",
+            "line": 911,
+            "cwe": "CWE-319",
+            "snippet": "\"http://lmms.sf.net/wiki \""
+          },
+          {
+            "severity": "low",
+            "file": "src/gui/widgets/Fader.cpp",
+            "line": 29,
+            "cwe": "CWE-319",
+            "snippet": "* http://www.hydrogen-music.org"
+          },
+          {
+            "severity": "low",
+            "file": "src/gui/tracks/TrackRenameLineEdit.cpp",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "* Copyright (c) 2017 Alexandre Almeida <http://m374lx.users.sourceforge.net/>"
+          },
+          {
+            "severity": "low",
+            "file": "src/core/AutomationClip.cpp",
+            "line": 584,
+            "cwe": "CWE-319",
+            "snippet": "// http://en.wikipedia.org/wiki/Cubic_Hermite_spline#Unit_interval_.280.2C_1.29"
+          },
+          {
+            "severity": "low",
+            "file": "src/core/LocklessAllocator.cpp",
+            "line": 110,
+            "cwe": "CWE-319",
+            "snippet": "// in http://en.cppreference.com/w/cpp/atomic/atomic/compare_exchange."
+          },
+          {
+            "severity": "low",
+            "file": "src/core/lv2/Lv2Evbuf.cpp",
+            "line": 26,
+            "cwe": "CWE-319",
+            "snippet": "* The original code was written by David Robillard <http://drobilla.net>"
+          },
+          {
+            "severity": "low",
+            "file": "src/core/lv2/Lv2Manager.cpp",
+            "line": 54,
+            "cwe": "CWE-319",
+            "snippet": "\"http://calf.sourceforge.net/plugins/Analyzer\","
+          },
+          {
+            "severity": "low",
+            "file": "src/core/lv2/Lv2Proc.cpp",
+            "line": 502,
+            "cwe": "CWE-319",
+            "snippet": "// http://lv2plug.in/ns/lv2core#InstrumentPlugin"
+          },
+          {
+            "severity": "low",
+            "file": "plugins/SlicerT/SlicerT.cpp",
+            "line": 146,
+            "cwe": "CWE-319",
+            "snippet": "// http://www.iro.umontreal.ca/~pift6080/H09/documents/papers/bello_onset_tutorial.pdf"
+          },
+          {
+            "severity": "low",
+            "file": "plugins/OpulenZ/OpulenZ.cpp",
+            "line": 589,
+            "cwe": "CWE-319",
+            "snippet": "// http://cd.textfiles.com/soundsensations/SYNTH/SBINS/"
+          },
+          {
+            "severity": "low",
+            "file": "plugins/LadspaEffect/LadspaMatrixControlDialog.cpp",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "* This file is part of LMMS - http://lmms.io"
+          },
+          {
+            "severity": "low",
+            "file": "plugins/LadspaEffect/LadspaMatrixControlDialog.h",
+            "line": 7,
+            "cwe": "CWE-319",
+            "snippet": "* This file is part of LMMS - http://lmms.io"
+          },
+          {
+            "severity": "low",
+            "file": "plugins/LadspaEffect/caps/Amp.cc",
+            "line": 8,
+            "cwe": "CWE-319",
+            "snippet": "http://quitte.de/dsp/"
+          },
+          {
+            "severity": "low",
+            "file": "plugins/LadspaEffect/caps/Amp.h",
+            "line": 6,
+            "cwe": "CWE-319",
+            "snippet": "http://quitte.de/dsp/"
+          },
+          {
+            "severity": "low",
+            "file": "plugins/LadspaEffect/caps/basics.h",
+            "line": 6,
+            "cwe": "CWE-319",
+            "snippet": "http://quitte.de/dsp/"
+          },
+          {
+            "severity": "low",
+            "file": "plugins/LadspaEffect/caps/Cabinet-Models32.h",
+            "line": 6,
+            "cwe": "CWE-319",
+            "snippet": "http://quitte.de/dsp/"
+          },
+          {
+            "severity": "low",
+            "file": "plugins/LadspaEffect/caps/Cabinet.cc",
+            "line": 6,
+            "cwe": "CWE-319",
+            "snippet": "http://quitte.de/dsp/"
+          },
+          {
+            "severity": "low",
+            "file": "plugins/LadspaEffect/caps/Cabinet.h",
+            "line": 6,
+            "cwe": "CWE-319",
+            "snippet": "http://quitte.de/dsp/"
+          },
+          {
+            "severity": "low",
+            "file": "plugins/LadspaEffect/caps/Chorus.cc",
+            "line": 6,
+            "cwe": "CWE-319",
+            "snippet": "http://quitte.de/dsp/"
+          },
+          {
+            "severity": "low",
+            "file": "plugins/LadspaEffect/caps/Chorus.h",
+            "line": 6,
+            "cwe": "CWE-319",
+            "snippet": "http://quitte.de/dsp/"
+          },
+          {
+            "severity": "low",
+            "file": "plugins/LadspaEffect/caps/Click.cc",
+            "line": 6,
+            "cwe": "CWE-319",
+            "snippet": "http://quitte.de/dsp/"
+          },
+          {
+            "severity": "low",
+            "file": "plugins/LadspaEffect/caps/Click.h",
+            "line": 6,
+            "cwe": "CWE-319",
+            "snippet": "http://quitte.de/dsp/"
+          },
+          {
+            "severity": "low",
+            "file": "plugins/LadspaEffect/caps/Clip.cc",
+            "line": 6,
+            "cwe": "CWE-319",
+            "snippet": "http://quitte.de/dsp/"
+          },
+          {
+            "severity": "low",
+            "file": "plugins/LadspaEffect/caps/Clip.h",
+            "line": 6,
+            "cwe": "CWE-319",
+            "snippet": "http://quitte.de/dsp/"
+          },
+          {
+            "severity": "low",
+            "file": "plugins/LadspaEffect/caps/Compress.cc",
+            "line": 6,
+            "cwe": "CWE-319",
+            "snippet": "http://quitte.de/dsp/"
+          }
+        ]
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 10,
+    "files_with_findings": 10,
+    "severity": {
+      "high": 0,
+      "medium": 7,
+      "low": 3
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 7,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "src/gui/MainWindow.cpp",
+            "line": 865,
+            "cwe": "CWE-1336",
+            "snippet": "void MainWindow::saveProjectAsDefaultTemplate()"
+          },
+          {
+            "severity": "medium",
+            "file": "src/gui/menus/TemplatesMenu.cpp",
+            "line": 23,
+            "cwe": "CWE-1336",
+            "snippet": "SLOT(createNewProjectFromTemplate(QAction*)));"
+          },
+          {
+            "severity": "medium",
+            "file": "src/core/main.cpp",
+            "line": 864,
+            "cwe": "CWE-1336",
+            "snippet": "Engine::getSong()->createNewProjectFromTemplate( fileToLoad );"
+          },
+          {
+            "severity": "medium",
+            "file": "src/core/Song.cpp",
+            "line": 940,
+            "cwe": "CWE-1336",
+            "snippet": "createNewProjectFromTemplate( defaultTemplate );"
+          },
+          {
+            "severity": "medium",
+            "file": "include/MainWindow.h",
+            "line": 155,
+            "cwe": "CWE-1336",
+            "snippet": "void saveProjectAsDefaultTemplate();"
+          },
+          {
+            "severity": "medium",
+            "file": "include/Song.h",
+            "line": 251,
+            "cwe": "CWE-1336",
+            "snippet": "void createNewProjectFromTemplate( const QString & templ );"
+          },
+          {
+            "severity": "medium",
+            "file": "include/TemplatesMenu.h",
+            "line": 44,
+            "cwe": "CWE-1336",
+            "snippet": "static void createNewProjectFromTemplate(QAction * _action);"
+          }
+        ]
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 3,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "src/core/InstrumentFunctions.cpp",
+            "line": 140,
+            "cwe": "CWE-",
+            "snippet": "{ QT_TRANSLATE_NOOP( \"InstrumentFunctionNoteStacking\", \"Chromatic\" ), { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, -1 } },"
+          },
+          {
+            "severity": "low",
+            "file": "data/locale/bs.ts",
+            "line": 3557,
+            "cwe": "CWE-",
+            "snippet": "<source>Chromatic</source>"
+          },
+          {
+            "severity": "low",
+            "file": "data/locale/sr.ts",
+            "line": 2872,
+            "cwe": "CWE-",
+            "snippet": "<source>Chromatic</source>"
+          }
+        ]
+      },
+      "LLM09-Misinformation": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:5b7a6a5b-e15b-5b00-b858-799cd195dc4d",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-06T07:57:52Z",
+      "component": {
+        "type": "application",
+        "name": "LMMS",
+        "version": "a2f57e70ce9c",
+        "bom-ref": "pkg:generic/anticloud/LMMS@a2f57e70ce9c",
+        "purl": "pkg:generic/anticloud/LMMS@a2f57e70ce9c",
+        "licenses": [
+          {
+            "license": {
+              "id": "GPL-2.0"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": "a2f57e70ce9c3468b4b6d21955bbe65a0989048a"
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/LMMS/lmms"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "Qt",
+        "version": "unspecified",
+        "purl": "pkg:generic/Qt",
+        "bom-ref": "native/Qt@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "Perl",
+        "version": "unspecified",
+        "purl": "pkg:generic/Perl",
+        "bom-ref": "native/Perl@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "Lilv",
+        "version": "unspecified",
+        "purl": "pkg:generic/Lilv",
+        "bom-ref": "native/Lilv@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "SuilModules",
+        "version": "unspecified",
+        "purl": "pkg:generic/SuilModules",
+        "bom-ref": "native/SuilModules@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "FluidSynth",
+        "version": "unspecified",
+        "purl": "pkg:generic/FluidSynth",
+        "bom-ref": "native/FluidSynth@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "Wine",
+        "version": "unspecified",
+        "purl": "pkg:generic/Wine",
+        "bom-ref": "native/Wine@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "Git",
+        "version": "unspecified",
+        "purl": "pkg:generic/Git",
+        "bom-ref": "native/Git@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "fftw3",
+        "version": "unspecified",
+        "purl": "pkg:generic/fftw3",
+        "bom-ref": "vcpkg/fftw3@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "fltk",
+        "version": "unspecified",
+        "purl": "pkg:generic/fltk",
+        "bom-ref": "vcpkg/fltk@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "fluidsynth",
+        "version": "unspecified",
+        "purl": "pkg:generic/fluidsynth",
+        "bom-ref": "vcpkg/fluidsynth@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "libflac",
+        "version": "unspecified",
+        "purl": "pkg:generic/libflac",
+        "bom-ref": "vcpkg/libflac@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "libogg",
+        "version": "unspecified",
+        "purl": "pkg:generic/libogg",
+        "bom-ref": "vcpkg/libogg@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "libsamplerate",
+        "version": "unspecified",
+        "purl": "pkg:generic/libsamplerate",
+        "bom-ref": "vcpkg/libsamplerate@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "libsndfile",
+        "version": "unspecified",
+        "purl": "pkg:generic/libsndfile",
+        "bom-ref": "vcpkg/libsndfile@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "libstk",
+        "version": "unspecified",
+        "purl": "pkg:generic/libstk",
+        "bom-ref": "vcpkg/libstk@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "libvorbis",
+        "version": "unspecified",
+        "purl": "pkg:generic/libvorbis",
+        "bom-ref": "vcpkg/libvorbis@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "lilv",
+        "version": "unspecified",
+        "purl": "pkg:generic/lilv",
+        "bom-ref": "vcpkg/lilv@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "mp3lame",
+        "version": "unspecified",
+        "purl": "pkg:generic/mp3lame",
+        "bom-ref": "vcpkg/mp3lame@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "portaudio",
+        "version": "unspecified",
+        "purl": "pkg:generic/portaudio",
+        "bom-ref": "vcpkg/portaudio@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "sdl2",
+        "version": "unspecified",
+        "purl": "pkg:generic/sdl2",
+        "bom-ref": "vcpkg/sdl2@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "zlib",
+        "version": "unspecified",
+        "purl": "pkg:generic/zlib",
+        "bom-ref": "vcpkg/zlib@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "Threads",
+        "version": "unspecified",
+        "purl": "pkg:generic/Threads",
+        "bom-ref": "native/Threads@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "ZLIB",
+        "version": "unspecified",
+        "purl": "pkg:generic/ZLIB",
+        "bom-ref": "native/ZLIB@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "Doxygen",
+        "version": "unspecified",
+        "purl": "pkg:generic/Doxygen",
+        "bom-ref": "native/Doxygen@unspecified"
+      }
+    ]
+  },
+  "elapsed_seconds": 83.53
+}
