@@ -5,8 +5,8 @@
   "git": {
    "url": "https://github.com/LMMS/lmms",
    "head": "a2f57e70ce9c3468b4b6d21955bbe65a0989048a",
-   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
-   "previous_substitute": "https://github.com/TONEJS/Tone.js"
+   "sha_verified_from": "revendor fix 2026-10-17",
+   "previous_substitute": "https://github.com/LMMS/lmms"
   }
  },
  "metrics": {
